@@ -6,7 +6,7 @@ const Feature = (props) => {
     return (
         <div className=' block  sm:flex text-center sm:text-left w-4/3 gap-x-0 mt-5'>
 
-            <div className=' grid place-content-center pb-2 sm:pb-0 sm:place-content-start'>
+            <div className=' grid place-content-center  place-items-center pb-2 sm:pb-0 sm:place-content-start'>
             <Image src={props.img} height={8} width={8} className="h-8 w-8  sm:mr-2  text-[#04A6C2]" alt="icon"/>
             </div>
             <div className=''>
